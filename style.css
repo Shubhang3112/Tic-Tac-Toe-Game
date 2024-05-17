@@ -1,0 +1,49 @@
+body{
+    background-color: darkgray;
+}
+#navbar{
+    background-color: blue;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+#game{
+    display: table;
+}
+.rows{
+    display: table-row;
+}
+.spaces{
+    display:table-cell;
+    /* height:same-as-width; */
+    padding: 35px;
+    width:25%;
+    /* height: 15%; */
+    align-items: center;
+}
+.leftspace,.rightspace{
+    display:table-cell;
+    width:25%;
+}
+.spaces{
+    border: 10px solid white;
+}
+.button{
+    height: 50px;
+}
+#textbox{
+    border: 10px dashed aqua;
+    font-size: 50px;
+    padding: 25px;
+    text-align: center;
+    color: red;
+    background-color: yellow;
+}
+.symbol {
+    text-align: center;
+    /* height: 38px; */
+    font-size: 63px;
+    /* padding-top: 5%; */
+    padding:0px 30px;
+}
